@@ -33,9 +33,8 @@ def jf(lenname):
         tempint=int(score%100/10)+tempint
         tempint=int(score/100)+tempint
         tempint=tempint%26
-
-        #6
         tempstr=tempstr+l[tempint]
+        #6
         tempint=score%10
         tempint=((tempint+1)*(tempid+3))%10
         tempstr=tempstr+str(tempint)

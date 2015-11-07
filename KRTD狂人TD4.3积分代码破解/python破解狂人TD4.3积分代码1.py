@@ -1,4 +1,4 @@
-﻿
+#-*-coding:utf-8-*- 
 #快银闪电侠 22:56 2015/10/18 星期日
 #狂人TD4.32 积分代码生成
 
@@ -38,9 +38,10 @@ def jf(lenname):
         tempint=score%10
         tempint=((tempint+1)*(tempid+3))%10
         tempstr=tempstr+str(tempint)
-        print("游戏名字长度为",lenname,"积分999代码：",tempstr)
+        print(u"游戏名字长度为",lenname,"积分999代码：",tempstr)
 
 
 for lenname in r:
     jf(lenname)
     
+input()
